@@ -233,7 +233,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto text-center px-4">
           <h3 className="text-3xl font-bold text-gray-900 mb-8">Download Makan App</h3>
           <div className="flex justify-center space-x-4">
-            <Button className="bg-black text-white hover:bg-gray-800 px-6 py-3">
+            <Button className="bg-black text-white hover:bg-gray-800">
               <Image
                 src="/appstore-button.svg"
                 alt="App Store"
@@ -241,7 +241,6 @@ export default function HomePage() {
                 height={40}
                 className="mr-2"
               />
-              App Store
             </Button>
           </div>
         </div>
