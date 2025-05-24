@@ -55,8 +55,8 @@ export default function HomePage() {
                 <Image
                   src="/1.png"
                   alt="Meet Makan Social Platform"
-                  width={200}
-                  height={300}
+                  width={100}
+                  height={150}
                   className="rounded-2xl shadow-lg w-full h-auto object-contain"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-[#1C4B71] text-white p-4 rounded-xl shadow-lg">
@@ -126,8 +126,8 @@ export default function HomePage() {
                 <Image
                   src="/2.png"
                   alt="Makan AI Recommendations"
-                  width={200}
-                  height={300}
+                  width={100}
+                  height={150}
                   className="rounded-2xl shadow-lg w-full h-auto object-contain"
                 />
                 <div className="absolute -bottom-4 -left-4 bg-blue-500 text-white p-4 rounded-xl shadow-lg">
@@ -144,8 +144,8 @@ export default function HomePage() {
                 <Image
                   src="/3.png"
                   alt="Discover Restaurants"
-                  width={200}
-                  height={300}
+                  width={100}
+                  height={150}
                   className="rounded-2xl shadow-lg w-full h-auto object-contain"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-green-500 text-white p-4 rounded-xl shadow-lg">
@@ -215,8 +215,8 @@ export default function HomePage() {
                 <Image
                   src="/4.png"
                   alt="Smart Bookmark Feature"
-                  width={200}
-                  height={300}
+                  width={100}
+                  height={150}
                   className="rounded-2xl shadow-lg w-full h-auto object-contain"
                 />
                 <div className="absolute -bottom-4 -left-4 bg-purple-500 text-white p-4 rounded-xl shadow-lg">
