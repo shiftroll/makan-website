@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,7 +9,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold text-[#1C4B71] mb-4">Makan</h3>
+            <Image
+              src="/makan-logo-white.png"
+              alt="Makan Logo"
+              width={100}
+              height={40}
+              className="mb-4"
+            />
             <p className="text-gray-300 mb-4">
               Your ultimate answer to "where to eat?" question. Discover amazing restaurants through AI-powered
               recommendations and social reviews.
