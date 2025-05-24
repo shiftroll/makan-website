@@ -1,0 +1,261 @@
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { ArrowRight, Smartphone, Brain, Compass, Bookmark } from "lucide-react"
+
+export default function HomePage() {
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="relative h-screen flex items-center justify-center text-white">
+        <div className="absolute inset-0 bg-black/50 z-10" />
+        <Image
+          src="/placeholder.svg?height=1080&width=1920"
+          alt="Restaurant food background"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="relative z-20 text-center max-w-4xl mx-auto px-4">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            Your ultimate answer to <span className="text-blue-400">"where to eat?"</span> question
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 text-gray-200">
+            Discover amazing restaurants through AI-powered recommendations and social reviews
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="bg-[#1C4B71] hover:bg-[#164063] text-white px-8 py-3">
+              Get Started
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-black hover:bg-white hover:text-black px-8 py-3"
+            >
+              Learn More
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Makan</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Social media platform focused on restaurant discovery and review with AI-powered recommendations
+            </p>
+          </div>
+
+          {/* Feature 1 - Image Left, Content Right */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+            <div className="order-1">
+              <div className="relative">
+                <Image
+                  src="/placeholder.svg?height=400&width=500"
+                  alt="Meet Makan Social Platform"
+                  width={500}
+                  height={400}
+                  className="rounded-2xl shadow-lg"
+                />
+                <div className="absolute -bottom-4 -right-4 bg-[#1C4B71] text-white p-4 rounded-xl shadow-lg">
+                  <Smartphone className="h-8 w-8" />
+                </div>
+              </div>
+            </div>
+            <div className="order-2">
+              <div className="flex items-center mb-4">
+                <div className="bg-blue-100 p-3 rounded-lg mr-4">
+                  <Smartphone className="h-8 w-8 text-[#1C4B71]" />
+                </div>
+                <h3 className="text-3xl font-bold text-gray-900">Meet Makan</h3>
+              </div>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Social media platform focused on restaurant discovery and review. Connect with fellow food enthusiasts,
+                share your dining experiences, and discover hidden gems through authentic community-driven content.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-[#1C4B71] rounded-full mr-3"></div>
+                  Share authentic restaurant reviews
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-[#1C4B71] rounded-full mr-3"></div>
+                  Follow food influencers and friends
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-[#1C4B71] rounded-full mr-3"></div>
+                  Discover trending restaurants
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Feature 2 - Content Left, Image Right */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+            <div className="order-2 lg:order-1">
+              <div className="flex items-center mb-4">
+                <div className="bg-blue-100 p-3 rounded-lg mr-4">
+                  <Brain className="h-8 w-8 text-blue-500" />
+                </div>
+                <h3 className="text-3xl font-bold text-gray-900">Makan AI</h3>
+              </div>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                You can ask for restaurant recommendations by AI. It learns through the trend to give it more
+                personalized advice. Our advanced machine learning algorithms understand your taste preferences and
+                dining habits.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                  Personalized AI recommendations
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                  Learn from your preferences
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                  Smart cuisine matching
+                </li>
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <div className="relative">
+                <Image
+                  src="/placeholder.svg?height=400&width=500"
+                  alt="Makan AI Recommendations"
+                  width={500}
+                  height={400}
+                  className="rounded-2xl shadow-lg"
+                />
+                <div className="absolute -bottom-4 -left-4 bg-blue-500 text-white p-4 rounded-xl shadow-lg">
+                  <Brain className="h-8 w-8" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Feature 3 - Image Left, Content Right */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+            <div className="order-1">
+              <div className="relative">
+                <Image
+                  src="/placeholder.svg?height=400&width=500"
+                  alt="Discover Restaurants"
+                  width={500}
+                  height={400}
+                  className="rounded-2xl shadow-lg"
+                />
+                <div className="absolute -bottom-4 -right-4 bg-green-500 text-white p-4 rounded-xl shadow-lg">
+                  <Compass className="h-8 w-8" />
+                </div>
+              </div>
+            </div>
+            <div className="order-2">
+              <div className="flex items-center mb-4">
+                <div className="bg-green-100 p-3 rounded-lg mr-4">
+                  <Compass className="h-8 w-8 text-green-500" />
+                </div>
+                <h3 className="text-3xl font-bold text-gray-900">Discover</h3>
+              </div>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Find new restaurants and hidden gems. Discover new food experiences through the Makan app. Explore
+                different cuisines, price ranges, and dining atmospheres tailored to your mood.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                  Explore nearby restaurants
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                  Filter by cuisine and price
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                  Find hidden local gems
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Feature 4 - Content Left, Image Right */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="flex items-center mb-4">
+                <div className="bg-purple-100 p-3 rounded-lg mr-4">
+                  <Bookmark className="h-8 w-8 text-purple-500" />
+                </div>
+                <h3 className="text-3xl font-bold text-gray-900">Smart Bookmark</h3>
+              </div>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Keep the list of restaurants that you want to go. Bookmark your favorite places so that you can visit
+                other social media platforms here and we will be the one for you. Never lose track of that perfect
+                restaurant recommendation again.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                  Save restaurants for later
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                  Organize by categories
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                  Share lists with friends
+                </li>
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <div className="relative">
+                <Image
+                  src="/placeholder.svg?height=400&width=500"
+                  alt="Smart Bookmark Feature"
+                  width={500}
+                  height={400}
+                  className="rounded-2xl shadow-lg"
+                />
+                <div className="absolute -bottom-4 -left-4 bg-purple-500 text-white p-4 rounded-xl shadow-lg">
+                  <Bookmark className="h-8 w-8" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* App Store Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto text-center px-4">
+          <h3 className="text-3xl font-bold text-gray-900 mb-8">Download Makan App</h3>
+          <div className="flex justify-center space-x-4">
+            <Button className="bg-black text-white hover:bg-gray-800 px-6 py-3">
+              <Image
+                src="/placeholder.svg?height=24&width=24"
+                alt="App Store"
+                width={24}
+                height={24}
+                className="mr-2"
+              />
+              App Store
+            </Button>
+            <Button variant="outline" className="border-gray-300 px-6 py-3">
+              <Image
+                src="/placeholder.svg?height=24&width=24"
+                alt="Google Play"
+                width={24}
+                height={24}
+                className="mr-2"
+              />
+              Google Play
+            </Button>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
