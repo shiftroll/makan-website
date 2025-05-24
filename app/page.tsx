@@ -57,7 +57,7 @@ export default function HomePage() {
                   alt="Meet Makan Social Platform"
                   width={200}
                   height={300}
-                  className="rounded-2xl shadow-lg"
+                  className="rounded-2xl shadow-lg w-full h-auto object-contain"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-[#1C4B71] text-white p-4 rounded-xl shadow-lg">
                   <Smartphone className="h-8 w-8" />
@@ -128,7 +128,7 @@ export default function HomePage() {
                   alt="Makan AI Recommendations"
                   width={200}
                   height={300}
-                  className="rounded-2xl shadow-lg"
+                  className="rounded-2xl shadow-lg w-full h-auto object-contain"
                 />
                 <div className="absolute -bottom-4 -left-4 bg-blue-500 text-white p-4 rounded-xl shadow-lg">
                   <Brain className="h-8 w-8" />
@@ -146,7 +146,7 @@ export default function HomePage() {
                   alt="Discover Restaurants"
                   width={200}
                   height={300}
-                  className="rounded-2xl shadow-lg"
+                  className="rounded-2xl shadow-lg w-full h-auto object-contain"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-green-500 text-white p-4 rounded-xl shadow-lg">
                   <Compass className="h-8 w-8" />
