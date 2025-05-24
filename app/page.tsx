@@ -8,13 +8,15 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-white">
         <div className="absolute inset-0 bg-black/50 z-10" />
-        <Image
-          src="/placeholder.svg?height=1080&width=1920"
-          alt="Restaurant food background"
-          fill
-          className="object-cover"
-          priority
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
         <div className="relative z-20 text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Your ultimate answer to <span className="text-blue-400">"where to eat?"</span> question
