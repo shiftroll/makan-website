@@ -235,23 +235,11 @@ export default function HomePage() {
           <div className="flex justify-center space-x-4">
             <Button className="bg-black text-white hover:bg-gray-800 px-6 py-3">
               <Image
-                src="/placeholder.svg?height=24&width=24"
+                src="/appstore-button.svg"
                 alt="App Store"
-                width={24}
-                height={24}
-                className="mr-2"
+                width={100%}
+                height={100%}
               />
-              App Store
-            </Button>
-            <Button variant="outline" className="border-gray-300 px-6 py-3">
-              <Image
-                src="/placeholder.svg?height=24&width=24"
-                alt="Google Play"
-                width={24}
-                height={24}
-                className="mr-2"
-              />
-              Google Play
             </Button>
           </div>
         </div>
