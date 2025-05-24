@@ -51,17 +51,14 @@ export default function HomePage() {
           {/* Feature 1 - Image Left, Content Right */}
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div className="order-1">
-              <div className="relative">
+              <div className="relative justify-items-center">
                 <Image
                   src="/1.png"
                   alt="Meet Makan Social Platform"
-                  width={200}
-                  height={300}
-                  className="rounded-2xl shadow-lg w-full h-auto object-contain"
+                  width={300}
+                  height={450}
+                  className="rounded-2xl shadow-lg w-100 h-auto object-contain"
                 />
-                <div className="absolute -bottom-4 -right-4 bg-[#1C4B71] text-white p-4 rounded-xl shadow-lg">
-                  <Smartphone className="h-8 w-8" />
-                </div>
               </div>
             </div>
             <div className="order-2">
@@ -122,17 +119,14 @@ export default function HomePage() {
               </ul>
             </div>
             <div className="order-1 lg:order-2">
-              <div className="relative">
+              <div className="relative justify-items-center">
                 <Image
                   src="/2.png"
                   alt="Makan AI Recommendations"
-                  width={200}
-                  height={300}
-                  className="rounded-2xl shadow-lg w-full h-auto object-contain"
+                  width={300}
+                  height={450}
+                  className="rounded-2xl shadow-lg w-100 h-auto object-contain"
                 />
-                <div className="absolute -bottom-4 -left-4 bg-blue-500 text-white p-4 rounded-xl shadow-lg">
-                  <Brain className="h-8 w-8" />
-                </div>
               </div>
             </div>
           </div>
@@ -140,17 +134,14 @@ export default function HomePage() {
           {/* Feature 3 - Image Left, Content Right */}
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div className="order-1">
-              <div className="relative">
+              <div className="relative justify-items-center">
                 <Image
                   src="/3.png"
                   alt="Discover Restaurants"
-                  width={200}
-                  height={300}
-                  className="rounded-2xl shadow-lg w-full h-auto object-contain"
+                  width={300}
+                  height={450}
+                  className="rounded-2xl shadow-lg w-100 h-auto object-contain"
                 />
-                <div className="absolute -bottom-4 -right-4 bg-green-500 text-white p-4 rounded-xl shadow-lg">
-                  <Compass className="h-8 w-8" />
-                </div>
               </div>
             </div>
             <div className="order-2">
@@ -211,17 +202,14 @@ export default function HomePage() {
               </ul>
             </div>
             <div className="order-1 lg:order-2">
-              <div className="relative">
+              <div className="relative justify-items-center">
                 <Image
                   src="/4.png"
                   alt="Smart Bookmark Feature"
-                  width={200}
-                  height={300}
-                  className="rounded-2xl shadow-lg w-full h-auto object-contain"
+                  width={300}
+                  height={450}
+                  className="rounded-2xl shadow-lg w-100 h-auto object-contain"
                 />
-                <div className="absolute -bottom-4 -left-4 bg-purple-500 text-white p-4 rounded-xl shadow-lg">
-                  <Bookmark className="h-8 w-8" />
-                </div>
               </div>
             </div>
           </div>
@@ -230,16 +218,16 @@ export default function HomePage() {
 
       {/* App Store Section */}
       <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto text-center px-4">
+        <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-3xl font-bold text-gray-900 mb-8">Download Makan App</h3>
-          <div className="flex justify-center space-x-4">
-            <Button className="bg-black text-white hover:bg-gray-800">
+          <div className="flex justify-center">
+            <Button className="bg-transparent text-white hover:bg-transparent">
               <Image
                 src="/appstore-button.svg"
                 alt="App Store"
-                width={140}
-                height={40}
-                className="mr-2"
+                width={180}
+                height={50}
+                className="mr-1"
               />
             </Button>
           </div>

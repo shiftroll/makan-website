@@ -18,7 +18,7 @@ export default function TeamPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <TeamMember
             name="Frederick Arthur"
-            role="Business Analyst"
+            role="Founder & CEO"
             image="/placeholder.svg?height=300&width=300"
             description="Currently studying Technology Management at Columbia University. Passionate about leveraging technology to solve real-world problems and create meaningful user experiences."
             skills={["Business Strategy", "Market Analysis", "Product Management"]}
@@ -28,71 +28,7 @@ export default function TeamPage() {
               email: "frederick@makan.com",
             }}
           />
-
-          <TeamMember
-            name="Sarah Chen"
-            role="Lead Developer"
-            image="/placeholder.svg?height=300&width=300"
-            description="Full-stack developer with expertise in AI and machine learning. Leading the technical development of Makan's recommendation engine and platform architecture."
-            skills={["React", "Node.js", "AI/ML", "Python"]}
-            social={{
-              linkedin: "#",
-              twitter: "#",
-              email: "sarah@makan.com",
-            }}
-          />
-
-          <TeamMember
-            name="Ahmad Rahman"
-            role="UI/UX Designer"
-            image="/placeholder.svg?height=300&width=300"
-            description="Creative designer focused on creating intuitive and beautiful user experiences. Responsible for Makan's visual identity and user interface design."
-            skills={["UI Design", "UX Research", "Prototyping", "Branding"]}
-            social={{
-              linkedin: "#",
-              twitter: "#",
-              email: "ahmad@makan.com",
-            }}
-          />
-
-          <TeamMember
-            name="Maria Santos"
-            role="Data Scientist"
-            image="/placeholder.svg?height=300&width=300"
-            description="PhD candidate specializing in recommendation systems and natural language processing. Building the AI that powers Makan's personalized recommendations."
-            skills={["Machine Learning", "Data Analysis", "Python", "TensorFlow"]}
-            social={{
-              linkedin: "#",
-              twitter: "#",
-              email: "maria@makan.com",
-            }}
-          />
-
-          <TeamMember
-            name="David Kim"
-            role="Marketing Lead"
-            image="/placeholder.svg?height=300&width=300"
-            description="Digital marketing expert with experience in social media growth and community building. Leading Makan's go-to-market strategy and user acquisition."
-            skills={["Digital Marketing", "Social Media", "Growth Hacking", "Analytics"]}
-            social={{
-              linkedin: "#",
-              twitter: "#",
-              email: "david@makan.com",
-            }}
-          />
-
-          <TeamMember
-            name="Lisa Wang"
-            role="Operations Manager"
-            image="/placeholder.svg?height=300&width=300"
-            description="Operations specialist ensuring smooth day-to-day functioning of the team. Managing partnerships with restaurants and coordinating business development efforts."
-            skills={["Operations", "Partnership", "Project Management", "Business Development"]}
-            social={{
-              linkedin: "#",
-              twitter: "#",
-              email: "lisa@makan.com",
-            }}
-          />
+    
         </div>
 
         <div className="mt-16 text-center">

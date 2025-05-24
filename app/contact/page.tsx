@@ -82,20 +82,6 @@ export default function ContactPage() {
                     <p className="text-gray-600 text-sm">hello@makan.com</p>
                   </div>
                 </div>
-
-                <div className="flex items-start space-x-3">
-                  <Clock className="h-5 w-5 text-[#1C4B71] mt-1" />
-                  <div>
-                    <h4 className="font-medium text-gray-900">Business Hours</h4>
-                    <p className="text-gray-600 text-sm">
-                      Monday - Friday: 9:00 AM - 6:00 PM
-                      <br />
-                      Saturday: 10:00 AM - 4:00 PM
-                      <br />
-                      Sunday: Closed
-                    </p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 
@@ -194,19 +180,6 @@ export default function ContactPage() {
                     Send Message
                   </Button>
                 </form>
-              </CardContent>
-            </Card>
-
-            {/* Map Placeholder */}
-            <Card className="mt-6">
-              <CardContent className="p-0">
-                <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-2" />
-                    <p className="text-gray-500">Interactive Map</p>
-                    <p className="text-gray-400 text-sm">Columbia University, New York</p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
           </div>
