@@ -5,6 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -23,8 +24,14 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-[#1C4B71]">
-              Makan
+            <Link href="/" className="flex-shrink-0">
+              <Image
+                src="/makan-logo.png" 
+                alt="Makan Logo"
+                width={100} // Adjust these dimensions according to your logo size
+                height={40}
+                priority
+              />
             </Link>
           </div>
 
