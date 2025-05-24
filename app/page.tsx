@@ -217,7 +217,7 @@ export default function HomePage() {
                   alt="Smart Bookmark Feature"
                   width={200}
                   height={300}
-                  className="rounded-2xl shadow-lg"
+                  className="rounded-2xl shadow-lg w-full h-auto object-contain"
                 />
                 <div className="absolute -bottom-4 -left-4 bg-purple-500 text-white p-4 rounded-xl shadow-lg">
                   <Bookmark className="h-8 w-8" />
