@@ -56,7 +56,9 @@ export default function Navigation() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button className="bg-[#1C4B71] hover:bg-[#164063] text-white">Download App</Button>
+            <Link href="https://apps.apple.com/us/app/makan-social/id6740775768">
+              <Button className="bg-[#1C4B71] hover:bg-[#164063] text-white">Download App</Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -90,7 +92,9 @@ export default function Navigation() {
               </Link>
             ))}
             <div className="px-3 py-2">
-              <Button className="w-full bg-[#1C4B71] hover:bg-[#164063] text-white">Download App</Button>
+              <Link href="https://apps.apple.com/us/app/makan-social/id6740775768">
+                <Button className="w-full bg-[#1C4B71] hover:bg-[#164063] text-white">Download App</Button>
+              </Link>
             </div>
           </div>
         </div>
