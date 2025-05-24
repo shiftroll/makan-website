@@ -53,7 +53,7 @@ export default function HomePage() {
             <div className="order-1">
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=500"
+                  src="/1.png"
                   alt="Meet Makan Social Platform"
                   width={500}
                   height={400}
@@ -124,7 +124,7 @@ export default function HomePage() {
             <div className="order-1 lg:order-2">
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=500"
+                  src="/2.png"
                   alt="Makan AI Recommendations"
                   width={500}
                   height={400}
@@ -142,7 +142,7 @@ export default function HomePage() {
             <div className="order-1">
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=500"
+                  src="/3.png"
                   alt="Discover Restaurants"
                   width={500}
                   height={400}
@@ -213,7 +213,7 @@ export default function HomePage() {
             <div className="order-1 lg:order-2">
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=500"
+                  src="/4.png"
                   alt="Smart Bookmark Feature"
                   width={500}
                   height={400}
