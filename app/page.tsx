@@ -237,8 +237,8 @@ export default function HomePage() {
               <Image
                 src="/appstore-button.svg"
                 alt="App Store"
-                width={100%}
-                height={100%}
+                width={140}
+                height={40}
                 className="mr-2"
               />
               App Store
