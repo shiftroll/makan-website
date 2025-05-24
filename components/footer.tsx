@@ -12,8 +12,8 @@ export default function Footer() {
             <Image
               src="/makan-logo-white.png"
               alt="Makan Logo"
-              width={100}
-              height={40}
+              width={130}
+              height={80}
               className="mb-4"
             />
             <p className="text-gray-300 mb-4">
