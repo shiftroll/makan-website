@@ -56,7 +56,7 @@ export default function Navigation() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Link href="https://apps.apple.com/us/app/makan-social/id6740775768">
+            <Link href="https://apps.apple.com/us/app/makan-social/id6740775768" target="_blank" rel="noopener noreferrer">
               <Button className="bg-[#1C4B71] hover:bg-[#164063] text-white">Download App</Button>
             </Link>
           </div>
@@ -92,7 +92,7 @@ export default function Navigation() {
               </Link>
             ))}
             <div className="px-3 py-2">
-              <Link href="https://apps.apple.com/us/app/makan-social/id6740775768">
+              <Link href="https://apps.apple.com/us/app/makan-social/id6740775768" target="_blank" rel="noopener noreferrer">
                 <Button className="w-full bg-[#1C4B71] hover:bg-[#164063] text-white">Download App</Button>
               </Link>
             </div>

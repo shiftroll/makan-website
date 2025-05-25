@@ -195,7 +195,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-3xl font-bold text-gray-900 mb-8">Download Makan App</h3>
           <div className="flex justify-center">
-            <Link href="https://apps.apple.com/us/app/makan-social/id6740775768">
+            <Link href="https://apps.apple.com/us/app/makan-social/id6740775768" target="_blank" rel="noopener noreferrer">
               <Button className="bg-transparent text-white hover:bg-transparent">
                 <Image src="/appstore-button.svg" alt="App Store" width={180} height={50} className="mr-1" />
               </Button>
