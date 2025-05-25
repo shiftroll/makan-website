@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2024 Makan. All rights reserved. Made with ❤️ by the Makan team.</p>
+          <p className="text-gray-400">© 2025 Makan. All rights reserved. Made with ❤️ by the Makan team.</p>
         </div>
       </div>
     </footer>
